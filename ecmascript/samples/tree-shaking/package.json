@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "rollup": "^0.59.4"
+  },
+  "scripts": {
+    "build": "rollup main.js --o bundle.js --f iife"
+  }
+}
+
