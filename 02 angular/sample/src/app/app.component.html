@@ -1,0 +1,12 @@
+<h1>Hello Angular</h1>
+
+<div>{{counter}}</div>
+
+<ul>
+  <li *ngFor="let contact of contacts">
+    <app-contact-details (onContactDeleted)="onContactDeleted()" [contact]="contact"></app-contact-details>
+  </li>
+</ul>
+
+<button (click)="onButtonClicked()">Click me</button>
+<button (click)="noop()">Noop</button>
